@@ -1,0 +1,25 @@
+.ss
+{
+    margin-right: 60px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.navbar-brand
+{
+    margin-left: 80px;
+}
+
+@media (max-width: 768px){
+    .navbar-brand{
+        margin-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .ss{
+        padding: 0.5em 3em;
+        border-bottom: 1px solid #ddd;
+    }
+
+}
